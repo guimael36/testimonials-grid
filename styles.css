@@ -362,6 +362,10 @@ body {
     margin-top: -15px;
 }
 
+.attribution a {
+    text-decoration: none;
+}
+
 /* RESPONSIVO */
 
 @media (max-width: 1024px) {
