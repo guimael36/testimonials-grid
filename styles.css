@@ -12,6 +12,7 @@ html {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -345,6 +346,22 @@ body {
     letter-spacing: 0.25px;
 }
 
+/* FOOTER */
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20%;
+}
+
+.attribution span {
+    margin-top: -15px;
+}
+
 /* RESPONSIVO */
 
 @media (max-width: 1024px) {
@@ -371,7 +388,7 @@ body {
         grid-row: 1 / 2;
         margin: 0;
         padding: 0;
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     .card1 .profile {
@@ -810,7 +827,7 @@ body {
         .card1 {
             width: 80%;
             height: 350px;
-            margin-top: 220%;
+            margin-top: 250%;
         }
 
         .card1 .textlight {
